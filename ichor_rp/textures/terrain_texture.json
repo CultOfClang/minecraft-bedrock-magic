@@ -1,0 +1,29 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"coc_cruor": {
+			"textures": "textures/blocks/cruor"
+		},
+		"coc_alter": {
+			"textures": "textures/blocks/alter"
+		},
+		"coc_red_fern_0": {
+			"textures": "textures/blocks/red_fern_0"
+		},
+		"coc_red_fern_1": {
+			"textures": "textures/blocks/red_fern_1"
+		},
+		"coc_red_fern_2": {
+			"textures": "textures/blocks/red_fern_2"
+		},
+		"coc_red_fern_3": {
+			"textures": "textures/blocks/red_fern_3"
+		},
+		"coc_red_fern_4": {
+			"textures": "textures/blocks/red_fern_4"
+		}
+	}
+}

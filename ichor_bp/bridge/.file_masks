@@ -1,0 +1,151 @@
+{
+	"BP/features/cruor_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/cruor.json": {
+		"data": {}
+	},
+	"RP/ RP/attachables/draconic_helmet.player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"a12b3257_d550_475f_9e59_3765f857f750": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c5100259_0706_4f6e_a207_b31ce070c413": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7f3d9ea4_3db6_422d_9171_99e1f141fdf3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ee74666a_292d_4638_9e24_cb37d4ed9cc7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/items/draconic_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/draconic_boots.json": {
+		"data": {}
+	},
+	"BP/items/draconic_helmet.json": {
+		"data": {}
+	},
+	"BP/items/draconic_leggings.json": {
+		"data": {}
+	},
+	"BP/items/sacrificial.json": {
+		"data": {}
+	},
+	"BP/items/dagger_sacrifice.json": {
+		"data": {}
+	},
+	"BP/items/soul_pickaxe.json": {
+		"data": {}
+	},
+	"RP/ RP/render_controllers/psychopomp.json": {
+		"data": {}
+	},
+	"RP/ RP/animation_controllers/psychopomp.json": {
+		"data": {}
+	},
+	"RP/ RP/entity/psychopomp.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/psychopomp.json": {
+		"data": {}
+	},
+	"RP/ RP/animations/psychopomp.json": {
+		"data": {}
+	},
+	"BP/entities/psychopomp.json": {
+		"data": {}
+	},
+	"RP/ RP/models/entity/psychopomp.json": {
+		"data": {}
+	},
+	"RP/ RP/models/entity/vampire_bat.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/vampire_bat.json": {
+		"data": {}
+	},
+	"BP/entities/vampire_bat.json": {
+		"data": {}
+	},
+	"RP/ RP/entity/vampire_bat.json": {
+		"data": {}
+	},
+	"RP/ RP/render_controllers/vampire_bat.json": {
+		"data": {}
+	},
+	"RP/ RP/animation_controllers/vampire_bat.json": {
+		"data": {}
+	},
+	"RP/ RP/animations/vampire_bat.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/vampire_bat.json": {
+		"data": {}
+	},
+	"BP/blocks/alter.json": {
+		"data": {}
+	},
+	"BP/blocks/red_fern.json": {
+		"data": {}
+	},
+	"BP/loot_tables/red_fern_loot_grown.json": {
+		"data": {}
+	},
+	"BP/loot_tables/red_fern_loot_not_grown.json": {
+		"data": {}
+	},
+	"BP/items/red_fern_seeds.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/corpse.json": {
+		"data": {}
+	},
+	"BP/entities/corpse.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/corpse.json": {
+		"data": {}
+	},
+	"RP/entity/corpse.json": {
+		"data": {}
+	}
+}

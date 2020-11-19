@@ -1,0 +1,32 @@
+{
+	"file_path": "C:\\Users\\Lize\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Ichor RP\\render_controllers\\psychopomp.json",
+	"file_type": "render_controller",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"render_controllers": {
+			"controller.render.psychopomp": {
+				"arrays": {
+					"textures": {
+						"array.skins": [
+							"texture.default",
+							"texture.nectar",
+							"texture.angry",
+							"texture.angry_nectar"
+						]
+					}
+				},
+				"geometry": "Geometry.default",
+				"materials": [
+					{
+						"*": "Material.default"
+					}
+				],
+				"textures": [
+					"array.skins[query.is_powered + query.is_angry * 2]"
+				]
+			}
+		}
+	},
+	"file_uuid": "9378f504_47a3_4435_8c4f_441d78d54e8d"
+}

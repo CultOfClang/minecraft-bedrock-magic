@@ -1,0 +1,131 @@
+{
+	"individual_event_sounds": {
+		"events": {}
+	},
+	"block_sounds": {},
+	"entity_sounds": {
+		"defaults": {
+			"volume": 1,
+			"pitch": [
+				0.8,
+				1.2
+			],
+			"events": {
+				"fall.big": {
+					"sound": "damage.fallbig",
+					"volume": 0.75,
+					"pitch": 1
+				},
+				"fall.small": {
+					"sound": "damage.fallsmall",
+					"volume": 0.75,
+					"pitch": 1
+				},
+				"splash": {
+					"sound": "random.splash",
+					"pitch": [
+						0.6,
+						1.4
+					]
+				},
+				"swim": {
+					"sound": "random.swim",
+					"pitch": [
+						0.6,
+						1.4
+					]
+				},
+				"fizz": {
+					"sound": "random.fizz",
+					"volume": 0.7,
+					"pitch": [
+						1.2,
+						2
+					]
+				},
+				"drink": {
+					"sound": "random.drink",
+					"volume": 0.5,
+					"pitch": [
+						0.9,
+						1
+					]
+				},
+				"eat": {
+					"sound": "random.eat",
+					"volume": [
+						0.5,
+						1.5
+					],
+					"pitch": [
+						0.8,
+						1.2
+					]
+				},
+				"ambient": "",
+				"flop": "",
+				"hurt": "game.player.hurt",
+				"death": "game.player.die",
+				"ambient.in.water": "",
+				"hurt.in.water": "",
+				"death.in.water": "",
+				"ambient.in.raid": ""
+			}
+		},
+		"entities": {
+			"coc:psychopomp": {
+				"volume": 0.6,
+				"pitch": 1,
+				"events": {
+					"hurt": {
+						"sound": "mob.psychopomp.hurt",
+						"volume": 0.6,
+						"pitch": [
+							0.9,
+							1.1
+						]
+					},
+					"death": {
+						"sound": "mob.psychopomp.death",
+						"volume": 0.6,
+						"pitch": [
+							0.9,
+							1.1
+						]
+					},
+					"attack": {
+						"sound": "mob.psychopomp.sting",
+						"pitch": [
+							0.8,
+							1
+						]
+					},
+					"ambient.pollinate": {
+						"sound": "mob.psychopomp.pollinate",
+						"volume": 0.85
+					}
+				}
+			},
+			"coc:vampire_bat": {
+				"volume": 0.1,
+				"pitch": [
+					0.76,
+					1.14
+				],
+				"events": {
+					"ambient": "mob.vampire_bat.idle",
+					"hurt": "mob.vampire_bat.hurt",
+					"death": "mob.vampire_bat.death",
+					"takeoff": {
+						"sound": "mob.vampire_bat.takeoff",
+						"volume": 0.05,
+						"pitch": [
+							0.8,
+							1.2
+						]
+					}
+				}
+			}
+		}
+	}
+}

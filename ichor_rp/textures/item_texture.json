@@ -1,0 +1,43 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"coc_draconic_helmet": {
+			"textures": [
+				"textures/items/armor/draconic_helmet"
+			]
+		},
+		"coc_draconic_chestplate": {
+			"textures": [
+				"textures/items/armor/draconic_chestplate"
+			]
+		},
+		"coc_draconic_leggings": {
+			"textures": [
+				"textures/items/armor/draconic_leggings"
+			]
+		},
+		"coc_draconic_boots": {
+			"textures": [
+				"textures/items/armor/draconic_boots"
+			]
+		},
+		"coc_sacrificial": {
+			"textures": "textures/items/sacrificial"
+		},
+		"coc_dagger_sacrifice": {
+			"textures": "textures/items/tools/dagger/dagger_blue2"
+		},
+		"coc_soul_pickaxe": {
+			"textures": "textures/items/soul_pickaxe"
+		},
+		"coc_red_fern_seeds": {
+			"textures": "textures/items/seeds/red_fern_spores"
+		},
+		"corpse": {
+			"textures": [
+				"textures/items/corpse"
+			]
+		}
+	}
+}

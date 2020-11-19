@@ -1,0 +1,49 @@
+{
+	"file_path": "C:\\Users\\Lize\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\ichor\\spawn_rules\\psychopomp.json",
+	"file_type": "spawn_rule",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"minecraft:spawn_rules": {
+			"description": {
+				"identifier": "coc:psychopomp",
+				"population_control": "animal"
+			},
+			"conditions": [
+				{
+					"minecraft:spawns_on_surface": {},
+					"minecraft:brightness_filter": {
+						"min": 7,
+						"max": 15,
+						"adjust_for_weather": false
+					},
+					"minecraft:weight": {
+						"default": 10
+					},
+					"minecraft:herd": {
+						"min_size": 1,
+						"max_size": 1
+					},
+					"minecraft:biome_filter": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "plains"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "sunflower_plains"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "flower_forest"
+						}
+					]
+				}
+			]
+		}
+	},
+	"file_uuid": "4a5f4483_b7f8_49ba_9ece_b37060090ab4"
+}

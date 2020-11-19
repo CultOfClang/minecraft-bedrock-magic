@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "coc:vampire_bat",
+			"materials": {
+				"default": "bat"
+			},
+			"textures": {
+				"default": "textures/entity/vampire_bat"
+			},
+			"geometry": {
+				"default": "geometry.vampire_bat"
+			},
+			"scripts": {
+				"scale": 0.35
+			},
+			"animations": {
+				"resting": "animation.vampire_bat.resting",
+				"flying": "animation.vampire_bat.flying"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.vampire_bat.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.vampire_bat"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"file_path": "C:\\Users\\Lize\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\ichor_bp\\loot_tables\\entities\\corpse.json",
+	"file_type": "loot_table",
+	"format_version": 0,
+	"cache_content": {
+		"pools": [
+			{
+				"rolls": 1,
+				"entries": [
+					{
+						"type": "item",
+						"name": "minecraft:apple",
+						"weight": 1,
+						"functions": [
+							{
+								"function": "set_count",
+								"count": {
+									"min": 0,
+									"max": 2
+								}
+							},
+							{
+								"function": "looting_enchant",
+								"count": {
+									"min": 0,
+									"max": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"file_uuid": "4614896f_91b3_42f3_83f2_df0a9f1e7f3f"
+}

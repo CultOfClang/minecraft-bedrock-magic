@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.psychopomp.drip": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"dripping": "query.is_powered"
+						}
+					]
+				},
+				"dripping": {
+					"particle_effects": [
+						{
+							"effect": "nectar_dripping"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!query.is_powered"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.psychopomp.sting": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"psychopomp_sting"
+					]
+				}
+			}
+		},
+		"controller.animation.psychopomp.root": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"flying",
+						"drip",
+						"psychopomp_fly_bobbing",
+						"controller_psychopomp_sting"
+					]
+				}
+			}
+		}
+	}
+}

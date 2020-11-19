@@ -1,0 +1,22 @@
+{
+	"file_path": "C:\\Users\\Lize\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Ichor RP\\render_controllers\\vampire_bat.json",
+	"file_type": "render_controller",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"render_controllers": {
+			"controller.render.vampire_bat": {
+				"geometry": "Geometry.default",
+				"materials": [
+					{
+						"*": "Material.default"
+					}
+				],
+				"textures": [
+					"Texture.default"
+				]
+			}
+		}
+	},
+	"file_uuid": "ca6e254e_2b94_40f0_b69f_d722d7bd0d26"
+}

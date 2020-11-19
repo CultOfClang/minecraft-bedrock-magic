@@ -1,0 +1,42 @@
+{
+	"file_path": "C:\\Users\\Lize\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Ichor RP\\entity\\vampire_bat.json",
+	"file_type": "client_entity",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"minecraft:client_entity": {
+			"description": {
+				"identifier": "coc:vampire_bat",
+				"materials": {
+					"default": "bat"
+				},
+				"textures": {
+					"default": "textures/entity/vampire_bat"
+				},
+				"geometry": {
+					"default": "geometry.vampire_bat"
+				},
+				"scripts": {
+					"scale": 0.35
+				},
+				"animations": {
+					"resting": "animation.vampire_bat.resting",
+					"flying": "animation.vampire_bat.flying"
+				},
+				"animation_controllers": [
+					{
+						"move": "controller.animation.vampire_bat.move"
+					}
+				],
+				"render_controllers": [
+					"controller.render.vampire_bat"
+				],
+				"spawn_egg": {
+					"base_color": "#000000",
+					"overlay_color": "#FFFFFF"
+				}
+			}
+		}
+	},
+	"file_uuid": "1e1e3dd7_e95b_4cda_8db2_e869d054199b"
+}

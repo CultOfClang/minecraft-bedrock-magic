@@ -1,0 +1,60 @@
+{
+	"file_path": "C:\\Users\\Lize\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\ichor\\features\\cruor_feature.json",
+	"file_type": "feature",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.13.0",
+		"minecraft:ore_feature": {
+			"description": {
+				"identifier": "cruor_feature"
+			},
+			"count": 9,
+			"places_block": "coc:cruor",
+			"may_replace": [
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "andesite"
+					}
+				},
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "andesite_smooth"
+					}
+				},
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "diorite"
+					}
+				},
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "diorite_smooth"
+					}
+				},
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "granite"
+					}
+				},
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "granite_smooth"
+					}
+				},
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "stone"
+					}
+				}
+			]
+		}
+	},
+	"file_uuid": "f574afec_86d1_4609_b757_6f6e7d4f7fbc"
+}

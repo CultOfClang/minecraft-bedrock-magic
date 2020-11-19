@@ -1,0 +1,20 @@
+pack.name=Ichor RP
+pack.description=Blood for the blood god.
+tile.coc:cruor.name=Cruor
+item.coc:draconic_helmet.name=Draconic Helmet
+item.coc:draconic_chestplate.name=Draconic Chestplate
+item.coc:draconic_leggings.name=Draconic Leggings
+item.coc:draconic_boots.name=Draconic Boots
+item.coc:sacrificial.name=Sacrificial
+item.coc:dagger_sacrifice.name=Dagger sacrifice
+item.coc:soul_pickaxe.name=Soul pickaxe
+item.spawn_egg.entity.coc:psychopomp.name=Spawn Psychopomp
+entity.coc:psychopomp.name=Psychopomp
+item.spawn_egg.entity.coc:vampire_bat.name=Spawn Vampire bat
+entity.coc:vampire_bat.name=Vampire bat
+tile.coc:alter.name=Alter
+tile.coc:red_fern.name=Red fern
+
+item.coc:red_fern_seeds.name=Red fern Seeds
+item.spawn_egg.entity.coc:corpse.name=Spawn Corpse
+entity.coc:corpse.name=Corpse

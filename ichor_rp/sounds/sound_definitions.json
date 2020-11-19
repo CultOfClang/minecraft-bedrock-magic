@@ -1,0 +1,100 @@
+{
+	"sound_definitions": {
+		"mob.psychopomp.aggressive": {
+			"category": "neutral",
+			"max_distance": 8,
+			"sounds": [
+				{
+					"name": "sounds/mob/psychopomp/aggressive1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/psychopomp/aggressive2",
+				"sounds/mob/psychopomp/aggressive3"
+			]
+		},
+		"mob.psychopomp.death": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/psychopomp/death1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/psychopomp/death2"
+			]
+		},
+		"mob.psychopomp.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/psychopomp/hurt1",
+				{
+					"name": "sounds/mob/psychopomp/hurt2",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/psychopomp/hurt3"
+			]
+		},
+		"mob.psychopomp.loop": {
+			"category": "neutral",
+			"max_distance": 6,
+			"sounds": [
+				"sounds/mob/psychopomp/loop1",
+				"sounds/mob/psychopomp/loop2",
+				"sounds/mob/psychopomp/loop3",
+				"sounds/mob/psychopomp/loop4",
+				{
+					"name": "sounds/mob/psychopomp/loop5",
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"mob.psychopomp.pollinate": {
+			"category": "neutral",
+			"max_distance": 12,
+			"sounds": [
+				{
+					"name": "sounds/mob/psychopomp/pollinate1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/psychopomp/pollinate2",
+				"sounds/mob/psychopomp/pollinate3",
+				"sounds/mob/psychopomp/pollinate4"
+			]
+		},
+		"mob.psychopomp.sting": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/psychopomp/sting"
+			]
+		},
+		"mob.vampire_bat.death": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/vampire_bat/death"
+			]
+		},
+		"mob.vampire_bat.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/vampire_bat/hurt1",
+				"sounds/mob/vampire_bat/hurt2",
+				"sounds/mob/vampire_bat/hurt3",
+				"sounds/mob/vampire_bat/hurt4"
+			]
+		},
+		"mob.vampire_bat.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/vampire_bat/idle1",
+				"sounds/mob/vampire_bat/idle2",
+				"sounds/mob/vampire_bat/idle3",
+				"sounds/mob/vampire_bat/idle4"
+			]
+		},
+		"mob.vampire_bat.takeoff": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/vampire_bat/takeoff"
+			]
+		}
+	}
+}

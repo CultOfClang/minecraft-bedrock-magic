@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "coc:psychopomp",
+			"materials": {
+				"default": "bee"
+			},
+			"textures": {
+				"default": "textures/entity/psychopomp/psychopomp",
+				"angry": "textures/entity/psychopomp/psychopomp_angry",
+				"nectar": "textures/entity/psychopomp/psychopomp_nectar",
+				"angry_nectar": "textures/entity/psychopomp/psychopomp_angry_nectar"
+			},
+			"geometry": {
+				"default": "geometry.psychopomp"
+			},
+			"animations": {
+				"flying": "animation.psychopomp.flying",
+				"drip": "controller.animation.psychopomp.drip",
+				"controller_psychopomp_sting": "controller.animation.psychopomp.sting",
+				"psychopomp_sting": "animation.psychopomp.sting",
+				"psychopomp_no_stinger": "animation.psychopomp.no_stinger",
+				"psychopomp_fly_bobbing": "animation.psychopomp.fly.bobbing",
+				"psychopomp_root_controller": "controller.animation.psychopomp.root"
+			},
+			"particle_effects": {
+				"nectar_dripping": "minecraft:nectar_drip_particle"
+			},
+			"scripts": {
+				"animate": [
+					"psychopomp_root_controller",
+					{
+						"psychopomp_no_stinger": "query.mark_variant == 1"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.psychopomp"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

@@ -1,0 +1,355 @@
+{
+	"feature": {
+		"BP/features/cruor_feature.json": {
+			"identifiers": [
+				"cruor_feature"
+			]
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/overworld_underground_cruor_feature.json": {
+			"identifiers": [
+				"overworld_underground_cruor_feature"
+			]
+		}
+	},
+	"attachable": {
+		"RP/ RP/attachables/draconic_chesplate.player.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/ RP/attachables/draconic_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/psychopomp.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:exited_disturbed_hive",
+				"hive_destroyed",
+				"minecraft:exited_hive",
+				"minecraft:hive_full",
+				"attacked",
+				"calmed_down",
+				"collected_nectar",
+				"find_hive_event",
+				"find_hive_timeout",
+				"find_flower_timeout",
+				"seek_shelter",
+				"abort_sheltering",
+				"countdown_to_perish_event",
+				"perish_event"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"coc:psychopomp"
+			],
+			"animation_references": [],
+			"families": [
+				"psychopomp",
+				"mob",
+				"arthropod",
+				"psychopomp",
+				"mob",
+				"arthropod",
+				"pacified"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/vampire_bat.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"coc:vampire_bat"
+			],
+			"animation_references": [],
+			"families": [
+				"vampire_bat",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/corpse.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"coc:as_adult",
+				"coc:as_baby"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"coc:corpse"
+			],
+			"animation_references": [],
+			"families": [
+				"corpse"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/draconic_chestplate.json": {
+			"identifiers": [
+				"coc:draconic_chestplate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/draconic_boots.json": {
+			"identifiers": [
+				"coc:draconic_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/draconic_helmet.json": {
+			"identifiers": [
+				"coc:draconic_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/draconic_leggings.json": {
+			"identifiers": [
+				"coc:draconic_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sacrificial.json": {
+			"identifiers": [
+				"coc:sacrificial"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dagger_sacrifice.json": {
+			"identifiers": [
+				"coc:dagger_sacrifice"
+			],
+			"custom_commands": []
+		},
+		"BP/items/soul_pickaxe.json": {
+			"identifiers": [
+				"coc:soul_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/red_fern_seeds.json": {
+			"identifiers": [
+				"coc:red_fern_seeds"
+			],
+			"custom_commands": []
+		}
+	},
+	"render_controller": {
+		"RP/ RP/render_controllers/psychopomp.json": {
+			"ids": [
+				"controller.render.psychopomp"
+			]
+		},
+		"RP/ RP/render_controllers/vampire_bat.json": {
+			"ids": [
+				"controller.render.vampire_bat"
+			]
+		}
+	},
+	"client_entity": {
+		"RP/ RP/entity/psychopomp.json": {
+			"identifiers": [
+				"coc:psychopomp"
+			],
+			"particle_references": [
+				"nectar_dripping"
+			],
+			"animation_references": [
+				"flying",
+				"drip",
+				"controller_psychopomp_sting",
+				"psychopomp_sting",
+				"psychopomp_no_stinger",
+				"psychopomp_fly_bobbing",
+				"psychopomp_root_controller"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"angry",
+				"nectar",
+				"angry_nectar"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/ RP/entity/vampire_bat.json": {
+			"identifiers": [
+				"coc:vampire_bat"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"resting",
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/corpse.json": {
+			"identifiers": [
+				"coc:corpse"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"humanoid_big_head",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"move",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"bow_and_arrow",
+				"swimming",
+				"use_item_progress",
+				"zombie_attack_bare_hand",
+				"zombie_swimming"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/ RP/animations/psychopomp.json": {
+			"ids": [
+				"animation.psychopomp.flying",
+				"animation.psychopomp.sting",
+				"animation.psychopomp.no_stinger",
+				"animation.psychopomp.fly.bobbing"
+			]
+		},
+		"RP/ RP/animations/vampire_bat.json": {
+			"ids": [
+				"animation.vampire_bat.flying",
+				"animation.vampire_bat.resting"
+			]
+		}
+	},
+	"rp_animation_controller": {
+		"RP/ RP/animation_controllers/psychopomp.json": {
+			"ids": [
+				"controller.animation.psychopomp.drip",
+				"controller.animation.psychopomp.sting",
+				"controller.animation.psychopomp.root"
+			]
+		},
+		"RP/ RP/animation_controllers/vampire_bat.json": {
+			"ids": [
+				"controller.animation.vampire_bat.move"
+			]
+		}
+	},
+	"entity_model": {
+		"RP/ RP/models/entity/psychopomp.json": {
+			"identifiers": [
+				"geometry.psychopomp"
+			]
+		},
+		"RP/ RP/models/entity/vampire_bat.json": {
+			"identifiers": [
+				"geometry.vampire_bat"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/alter.json": {
+			"identifiers": [
+				"coc:alter"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/red_fern.json": {
+			"identifiers": [
+				"coc:red_fern"
+			],
+			"events": [
+				"coc:grow",
+				"coc:harvest"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		}
+	}
+}

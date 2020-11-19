@@ -1,0 +1,36 @@
+{
+	"file_path": "C:\\Users\\Lize\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Ichor RP\\animation_controllers\\vampire_bat.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.10.0",
+		"animation_controllers": {
+			"controller.animation.vampire_bat.move": {
+				"initial_state": "flying",
+				"states": {
+					"flying": {
+						"animations": [
+							"flying"
+						],
+						"transitions": [
+							{
+								"resting": "query.is_resting"
+							}
+						]
+					},
+					"resting": {
+						"animations": [
+							"resting"
+						],
+						"transitions": [
+							{
+								"flying": "!query.is_resting"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"file_uuid": "e145fc5e_e7d2_40d8_bbcf_623073100eb4"
+}

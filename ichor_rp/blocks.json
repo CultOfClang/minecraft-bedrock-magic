@@ -1,0 +1,15 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"coc:cruor": {
+		"textures": "coc_cruor",
+		"sound": "stone"
+	},
+	"coc:alter": {
+		"textures": "coc_alter",
+		"sound": "stone"
+	}
+}
